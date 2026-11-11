@@ -1,0 +1,13 @@
+{
+  "name": "inkflow-three",
+  "version": "0.1.0",
+  "description": "Real-time Chinese ink brushes, ink wash rendering and surface flow for Three.js.",
+  "type": "module",
+  "license": "MIT",
+  "author": "WangYu (Ryeblablabla)",
+  "exports": {".": "./src/index.js"},
+  "files": ["src", "public/ink", "LICENSE", "THIRD-PARTY.md"],
+  "scripts": {"dev": "vite --host 127.0.0.1 --port 4187", "build": "vite build", "preview": "vite preview --host 127.0.0.1 --port 4188"},
+  "dependencies": {"three": "0.181.2", "three-mesh-bvh": "0.9.18"},
+  "devDependencies": {"vite": "7.2.2", "esbuild": "0.27.0"}
+}
